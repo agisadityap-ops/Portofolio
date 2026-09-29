@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Agis Aditya Putra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Canvas Partikel Jaringan Neon (Latar Belakang) -->
+    <canvas id="bgCanvas"></canvas>
+
+    <!-- Lampu Neon Mengikuti Kursor -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Pop-up Notifikasi Toast HUD -->
+    <div id="toast" class="toast-hud"></div>
+
+    <!-- 1. Header / Hero Section -->
+    <header class="hud-card">
+        <img src="foto-profil.jpg" alt="Agis Aditya Putra" class="profile-img">
+        <h1>Halo, Saya <span class="highlight">Agis Aditya Putra</span></h1>
+        
+        <!-- Teks Mengetik Otomatis -->
+        <p class="typing-container">
+            Lulusan UMP | Fokus pada <span id="typing-text"></span><span class="blinking-cursor">|</span>
+        </p>
+    </header>
+
+    <!-- 2. Bagian Tentang Saya -->
+    <section id="about" class="hud-card">
+        <h2>Tentang Saya</h2>
+        <p>
+            Saya adalah seorang mahasiswa Teknik Informatika yang memiliki minat mendalam pada pengembangan perangkat lunak, manajemen basis data, dan logika sistem komputer. Saat ini, saya sedang aktif mendalami front-end web development untuk membangun aplikasi web yang efisien, terstruktur, dan solutif.
+        </p>
+    </section>
+
+    <!-- 3. Bagian Keahlian (Skills) -->
+    <section id="skills" class="hud-card">
+        <h2>Keahlian Utama</h2>
+        <ul>
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript (Interaktif)</li>
+            <li>Manajemen & Relasi Basis Data</li>
+            <li>Pemrograman & Arsitektur Komputer</li>
+        </ul>
+    </section>
+
+    <!-- 4. Bagian Proyek (Projects) -->
+    <section id="projects" class="hud-card">
+        <h2>Proyek Saya</h2>
+        <div class="project-card">
+            <h3>1. Perancangan Skema Basis Data Medis</h3>
+            <p>Mendesain skema dan konseptual relasi basis data terstruktur untuk pengelolaan data rumah sakit/klinik.</p>
+        </div>
+        <div class="project-card">
+            <h3>2. Website Portofolio Personal</h3>
+            <p>Membangun website portofolio interaktif dan responsif dari nol menggunakan HTML, CSS, dan JavaScript murni.</p>
+        </div>
+    </section>
+
+    <!-- 5. Bagian Kontak (Contact) -->
+    <section id="contact" class="hud-card">
+        <h2>Hubungi Saya</h2>
+        <p>Ingin berdiskusi atau berkolaborasi? Hubungi saya di:</p>
+        <ul>
+            <li>
+                <strong>Email:</strong> 
+                <a href="#" id="copyEmailBtn" class="copy-link">
+                    agisadityap@gmail.com <span class="copy-badge">📋 Klik untuk Salin</span>
+                </a>
+            </li>
+            <li><strong>Telepon:</strong> <a href="tel:+6282119017582">+62 821-1901-7582</a></li>
+            <li><strong>Email:</strong> <a href="mailto:agisadityap@gmail.com">agisadityap@gmail.com</a></li>
+            <li><strong>GitHub:</strong> <a href="https://github.com" target="_blank">github.com/username</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/agis-aditya-putra" target="_blank">linkedin.com/in/agis-aditya-putra</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Agis Aditya Putra. All rights reserved.</p>
+    </footer>
+
+    <!-- FILE JAVASCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>
